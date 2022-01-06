@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+p{
+    text-align: justify;
+}
+/*-----------------First Page--------------------*/
+.header-part h1{
+    font-family: 'Taviraj', serif;
+    font-size: 65px; 
+    border-left: 5px solid #e204e2; 
+    padding-left: 3px;
+    height: 138px;
+    
+}
+.header-part{
+    line-height: 1.2;
+}
+
+.header-part h1 span{
+    color: goldenrod;
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 40px;
+}
+
+#profile{
+    width: 550px;
+}
+.half-width img{
+    width: 420px;  
+}
+
+/*-----------------Reuse part--------------------*/
+.parant{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 40px; 
+}
+.action-btn{
+    text-decoration: none;
+    background-color: #f5235f;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+.action-btn:hover{
+    background-color: #e46a06;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 15px;  
+}
+.half-width{
+    width: 50%;
+    padding: 10px;
+}
+
+/*-----------------Extra Background--------------------*/
+.develop-W-lmt{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 60px center;
+    background-size: 250px;
+    margin-bottom: 50px;
+}
+.ourGlobalComnity{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat:no-repeat;
+    background-position: 82% 99%;
+    background-size: 220px;
+    padding-bottom: 10px;
+}
+
+/*-----------------About Mission--------------------*/
+.color-header{
+    font-size: 55px;
+    text-align: center;
+    font-weight: 900;
+}
+.color-header span{
+    color: rgb(255, 123, 0);
+}
+.different-mission-box{
+    width: 30%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 4px 4px 16px gray;
+}
+.different-mission-image{
+    width: 150px;
+}
+#mission-bg{
+    background-color: #d3e4f7;
+    padding: 20px;  
+}
+#vission-bg{
+    background-color: #e6e6fa;
+    padding: 20px;  
+}
+#goals-bg{
+    background-color: #f5f5dc;
+    padding: 20px;  
+}
+
+/*-----------------Footer part--------------------*/
+.footer{
+    height: 110px;
+    background-color: rgb(5, 5, 5);
+    text-align: center;
+    color: rgba(240, 10, 10, 0.657);
+    padding: 40px;
+    margin-top: 30px;
+}
+.footer h2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 40px;
+    color: white;
+    margin:  0px;
+    padding: 10px;
+}
+.footer span{
+    color: rgb(255, 123, 0);
+}
+.footer p{
+    text-align: center;
+}
+
+/*-----------------CONTRACT part--------------------*/
+.row1{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contract-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+  }
+  
+  .contract-col input, .contract-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+  
+  }
+  
+    .contract-col div h5{
+      font-size: 25px;
+      color: rgb(206, 233, 231);
+      font-weight: 250;
+    }
+
+    .address{
+        font-size: 20px;
+    }
+    
+  
+  
